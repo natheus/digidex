@@ -5,7 +5,7 @@
 
 # Digidex
 
-This is a DigiDex app built using [Next.js](https://nextjs.org/).
+DigiDex is an App built on [Next.js](https://nextjs.org/) to query Digimons.
 
 [Check out the Website](https://digidex-nine.vercel.app/).
 Leave a 🌟 if you liked it. That would make my day 😊.
