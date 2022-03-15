@@ -28,7 +28,7 @@ export class App extends Component {
           <div className="app-container">
             <div className="digimon-container">
               <div className="all-container">
-                {Digimons.map((Digimon, index, post) => (
+                {Digimons.map((Digimon, index) => (
                   <DigimonThumb
                     key={index}
                     img={Digimon.img}
