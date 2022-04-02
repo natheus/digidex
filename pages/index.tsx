@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Head from "next/head";
 import api from "./api/api";
-import DigimonThumb from "./components/DigimonThumb.js";
-import sortDigimon from "./components/SortDigimons.js";
+import DigimonThumb from "./components/DigimonThumb";
+import sortDigimon from "./components/SortDigimons";
 
 export class App extends Component {
   state = {
