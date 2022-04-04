@@ -12,9 +12,9 @@ Leave a 🌟 if you liked it. That would make my day 😊.
 
 ## Screenshots
 
-<img src="https://user-images.githubusercontent.com/94872601/158429262-133b6bbb-3bad-4a9a-b2e2-da6d306c4d0c.png" />
-<img src="https://user-images.githubusercontent.com/94872601/158429288-c0666028-5d8c-4dcf-a6ed-e85d88bed0d1.png" />	
-<img src="https://user-images.githubusercontent.com/94872601/158429332-96b09707-dd0f-44ad-9da6-82339b884bcb.png" />
+<img src="https://user-images.githubusercontent.com/94872601/161466446-70f1bb30-51b4-4fb6-9c96-33f2740e01de.png" />
+<img src="https://user-images.githubusercontent.com/94872601/161466453-87d74201-7286-4221-8551-0f980e745ae6.png" />	
+<img src="https://user-images.githubusercontent.com/94872601/161466456-7334045c-6bab-4d6e-b84e-74362d956608.png" />
 
 ## Features
 
