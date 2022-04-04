@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import React from "react";
 import styles from "../../styles/Navbar.module.sass";
 
 export default function Navbar() {

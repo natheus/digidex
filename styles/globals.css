@@ -19,6 +19,7 @@ body {
     "Pixel Digivolve", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("/background.jpg");
 }
 
 code {
@@ -26,11 +27,22 @@ code {
     monospace;
 }
 
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-bar input {
+  height: 30px;
+  width: 250px;
+}
+
 .app-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   min-height: 100vh;
 }
 
@@ -42,35 +54,35 @@ code {
 }
 
 .Armor {
-  color: #99afc2;
+  color: #939193;
 }
 
 .Champion {
-  color: #ffb703;
+  color: #006400;
 }
 
 .Fresh {
-  color: #3098c5;
+  color: #b45f74;
 }
 
 .In.Training {
-  color: #fa9461;
+  color: #6c2e53;
 }
 
 .Mega {
-  color: #1d3534;
+  color: #990005;
 }
 
 .Rookie {
-  color: #206683;
+  color: #0d5788;
 }
 
 .Training {
-  color: #7ccbb3;
+  color: #6c2e53;
 }
 
 .Ultimate {
-  color: #f26418;
+  color: #b2661a;
 }
 
 .thumb-container {

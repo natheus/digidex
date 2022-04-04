@@ -1,4 +1,4 @@
-export default function sortDigimon<T>(l: string, n: string) {
+export default function SortDigimon<T>(l: string, n: string) {
   const _args = Array.prototype.slice.call(arguments);
   return function (a: any, b: any) {
     for (let x in _args) {

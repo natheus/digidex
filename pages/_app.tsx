@@ -3,7 +3,7 @@ import "../styles/globals.css";
 import Layout from "./components/Layout";
 import { useEffect } from "react";
 
-function MyApp({ Component, pageProps } : {Component: any, pageProps: any}) {
+function MyApp({ Component, pageProps }: { Component: any; pageProps: any }) {
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap");
   }, []);
