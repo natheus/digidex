@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import React from "react";
-import styles from "../../styles/Navbar.module.sass";
+import styles from "../styles/navbar.module.scss";
 
 export default function Navbar() {
   return (
@@ -12,12 +12,12 @@ export default function Navbar() {
       </div>
       <ul className={styles.link_items}>
         <li>
-          <Link href="/">
+          <Link legacyBehavior href="/">
             <a>Home</a>
           </Link>
         </li>
         <li>
-          <Link href="/about">
+          <Link legacyBehavior href="/about">
             <a>About</a>
           </Link>
         </li>

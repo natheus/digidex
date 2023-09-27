@@ -29,13 +29,13 @@ code {
 
 .search-bar {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
 .search-bar input {
   height: 30px;
-  width: 250px;
+  width: 270px;
 }
 
 .app-container {
@@ -53,6 +53,10 @@ code {
   justify-content: center;
 }
 
+.Adult {
+  color: #7209b7;
+}
+
 .Armor {
   color: #939193;
 }
@@ -61,9 +65,20 @@ code {
   color: #006400;
 }
 
+.Child {
+  color: #006400;
+}
+
 .Fresh {
   color: #b45f74;
 }
+
+.Hybrid {
+  background: linear-gradient(to right, #b45f74, #5f74b4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 .In.Training {
   color: #6c2e53;
@@ -81,6 +96,10 @@ code {
   color: #6c2e53;
 }
 
+.Unknown {
+  color: #33415c;
+}
+
 .Ultimate {
   color: #b2661a;
 }
@@ -94,7 +113,8 @@ code {
   margin: 0.3rem;
   border: 1px solid #efefef;
   border-radius: 0.2rem;
-  min-width: 200px;
+  width: 200px; 
+  height: 200px; 
   text-align: center;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.089);
 }
@@ -129,4 +149,60 @@ h3 {
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+
+/* Adicione estas regras de estilo ao seu arquivo CSS ou ao estilo inline */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #007bff; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  border: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease; /* Animação da cor de fundo */
+}
+
+.pagination button:hover {
+  background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}
+
+.pagination span {
+  margin: 0 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333; /* Cor do número da página */
+}
+
+.pagination button.disabled {
+  background-color: #ccc; /* Cor de fundo cinza */
+  color: #999; /* Cor do texto cinza */
+  cursor: not-allowed; /* Altera o cursor para "não permitido" */
+  pointer-events: none; /* Desativa eventos de clique */
+}
+
+.spinner {
+  width: 25px;
+  height: 25px;
+  border: 4px solid rgba(0, 0, 0, 0.3);
+  border-top: 4px solid #007bff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite; 
+  margin: 0 auto; 
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

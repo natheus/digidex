@@ -1,7 +1,17 @@
 import axios from "axios";
 
-const api = axios.create({
-    baseURL: "https://digimon-api.vercel.app/api/digimon"
-});
+function baseApi(page: number) {
+  return axios.get(
+    `https://www.digi-api.com/api/v1/digimon?pageSize=100&page=${page}`
+  );
+}
 
-export default api;
+function createDigiInfosInstance(id: string) {
+  return axios.get(`https://www.digi-api.com/api/v1/digimon/${id}`);
+}
+
+function getDigiByName(name: string) {
+  return axios.get(`https://www.digi-api.com/api/v1/digimon/${name}`);
+}
+
+export default { baseApi, createDigiInfosInstance, getDigiByName };

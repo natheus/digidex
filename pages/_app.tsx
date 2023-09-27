@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.css";
-import "../styles/globals.css";
-import Layout from "./components/Layout";
+import "../styles/globals.scss";
+import Layout from "../components/Layout";
 import { useEffect } from "react";
 
 function MyApp({ Component, pageProps }: { Component: any; pageProps: any }) {
