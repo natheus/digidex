@@ -12,21 +12,23 @@ Leave a 🌟 if you liked it. That would make my day 😊.
 
 ## Screenshots
 
-<img src="https://user-images.githubusercontent.com/94872601/161466446-70f1bb30-51b4-4fb6-9c96-33f2740e01de.png" />
-<img src="https://user-images.githubusercontent.com/94872601/161466453-87d74201-7286-4221-8551-0f980e745ae6.png" />	
-<img src="https://user-images.githubusercontent.com/94872601/161466456-7334045c-6bab-4d6e-b84e-74362d956608.png" />
+<img src="https://user-images.githubusercontent.com/94872601/271379563-eb8c5660-4ff0-4997-900f-fea5d30217ba.png" />
+<img src="https://user-images.githubusercontent.com/94872601/271379581-8bf798df-6b55-4a2c-be44-f11845c2266f.png" />	
+<img src="https://user-images.githubusercontent.com/94872601/271379885-f07db5cc-649d-4aac-8b7f-78812c8751be.png" />
 
 ## Features
 
-1. Data from over 200 Digimons.
+1. Data from the vast majority of Digimon, if not all.
 2. Digimon Level.
 3. Images.
+4. More is coming...
 
 ## A word of Thanks
 
-- [Digimon API](https://digimon-api.herokuapp.com/) for providing Digimon Data.
-- [Shadow Smith](https://twitter.com/heyshadowsmith) for being the creator.
+- Thank you [Shadow Smith](https://github.com/heyshadowsmith) for API on v1 site: [https://digimon-api.vercel.app/](https://digimon-api.vercel.app/)
 
+- Thank you [Vinicius Brito Costa](https://github.com/Vinicius-Brito-Costa) for API on v2 site: [https://digimon-api.com/](https://digimon-api.com/)
+ 
 ## Copyright
 
 Digimon and Digivice are registered trademarks of their respective owners. No copyright infringement intended. This is just a fun little side project made by a DigiFan.
